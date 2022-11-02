@@ -6,12 +6,7 @@ import {Product} from '../../models/product.model';
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
- @Input() products = [
+  @Input() product: Product []= [
     {
       name: 'Adonaid',
       price: 299900,
@@ -64,5 +59,11 @@ export class ProductComponent implements OnInit {
       image: './assets/img/10.jpeg'
     }
   ]
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
 
 }
