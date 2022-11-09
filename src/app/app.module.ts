@@ -7,6 +7,7 @@ import { ProductComponent } from './components/product/product.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FormComponent } from './components/form/form.component';
 import { HomeComponent } from './components/home/home.component';
+import { SingupComponent } from './components/singup/singup.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './components/home/home.component';
     ProductComponent,
     HeaderComponent,
     FormComponent,
-    HomeComponent
+    HomeComponent,
+    SingupComponent
   ],
   imports: [
     BrowserModule,
