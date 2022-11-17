@@ -9,6 +9,7 @@ import { FormComponent } from './components/form/form.component';
 import { HomeComponent } from './components/home/home.component';
 import { SingupComponent } from './components/singup/singup.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
